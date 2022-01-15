@@ -15,5 +15,5 @@ if Milk_Bottle_account > 10:
 else:
     print("budi tidak jadi membeli 1 botol susu")
 
-    print("budi pulang ke rumah")
+    print("budi pulang kee rumah")
     print("menyerahkan hasilnya kepada ibu")
