@@ -1,5 +1,5 @@
 """
-program perulangan membaca buku dengan while sampai paham
+program perulangan membaca buku dengan while sampai paham studi kasus nyata
 """
 
 jumlah_buku = 10
