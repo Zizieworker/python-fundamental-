@@ -53,3 +53,29 @@ daftar_buku = ["Atomic habit", "Cashflow Kuandran","Think And Grow rich","Journe
 daftar_buku.pop(-3)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+
+print('\nPerintah Del Comphersion ')
+daftar_buku = ["Atomic habit", "Cashflow Kuandran","Think And Grow rich","Journey of alex fegurson "]
+del daftar_buku[0]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nList Comprehension yang pertama ')
+daftar_buku = ["Atomic habit", "Cashflow Kuandran","Think And Grow rich","Journey of alex fegurson "]
+del daftar_buku[:]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nList Comprehension dengan Comprehension Start')
+daftar_buku = ["Atomic habit", "Cashflow Kuandran","Think And Grow rich","Journey of alex fegurson "]
+del daftar_buku[0:-2] #Start :  End
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+#Comprehension Step
+print('\nList Comprehension dengan Comprehension Start')
+daftar_buku = ["Atomic habit", "Cashflow Kuandran","Think And Grow rich","Journey of alex fegurson "]
+del daftar_buku[0::2] #START:END:STEP
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
